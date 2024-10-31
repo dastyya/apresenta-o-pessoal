@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #1E1E2F;
+    color: #d9d4e1;
+}
+
+.koh-santepheap-regular {
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .koh-santepheap-bold {
+    font-family: "Koh Santepheap", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .noto-sans {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #b4a8c7;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left, .right {
+    padding: 20px;
+}
+
+.left {
+    width: 40%;
+    text-align: center;
+    background-color: #69518f;
+}
+
+.right {
+    width: 60%;
+    text-align: start;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
